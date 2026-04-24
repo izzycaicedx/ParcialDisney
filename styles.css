@@ -11,8 +11,7 @@ body {
 }
 
 .navbar {
-    background-color: #1a1a1a;
-    color: white;
+    background-color: #ffffff;
     padding: 12px 30px;
     display: flex;
     justify-content: space-between;
@@ -24,6 +23,7 @@ body {
 
 .navbar img {
     height: 35px;
+
 }
 
 .navbar ul {
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
@@ -41,7 +41,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: #aaaaaa;
+    color: #000000;
 }
 
 .navbar div {
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar div a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
@@ -61,8 +61,8 @@ body {
    padding: 5px 12px;
     border-radius: 20px;
     border: 1px solid #555;
-    background-color: #222;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     font-size: 12px;
 }
 
@@ -165,26 +165,182 @@ body {
     text-decoration: underline;
 }
 
+.disney-plus{
+     background-color: #1d5c5c;
+    padding: 40px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.disney-plus h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.disney-plus .card {
+    background-color: transparent;
+    border: none;
+    width: 28%;
+    padding: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+.disney-plus .card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 0;
+}
+
+.disney-plus .card p {
+    color: #cccccc;
+    font-size: 12px;
+    padding: 8px 0 5px;
+}
+
+.disney-plus .card a {
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.disney-plus .card a:hover {
+    text-decoration: underline;
+}
+
+.movies {
+    background-color: #f0f0f0;
+    padding: 40px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.movies h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.movies .card {
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    min-width: 160px;
+    padding: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+.movies .card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.movies .card h3 {
+    font-size: 13px;
+    color: #111;
+    padding: 8px 0 3px;
+    line-height: 1.3;
+}
+
+.movies .card p {
+    font-size: 11px;
+    color: #777;
+}
+
+.parks-and-travel {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.parks-and-travel h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.parks-and-travel .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 46%;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.parks-and-travel .card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.parks-and-travel .card h3 {
+    font-size: 14px;
+    font-style: italic;
+    padding: 12px 15px 5px;
+    color: #111;
+}
+
+.parks-and-travel .card p {
+    font-size: 12px;
+    color: #555;
+    padding: 0 15px 8px;
+    line-height: 1.4;
+}
+
+.parks-and-travel .card a {
+    display: block;
+    color: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 8px 15px 15px;
+
+}
 
 .promo {
-    display: flex;        
-    flex-wrap: wrap;       
+    display: flex;   
     align-items: center;   
-    background-color: #e0f4f7; 
-    border-radius: 15px;
+    background-color: #ddeef7; 
     padding: 0;         
+    min-height: 380px;
     overflow: hidden; 
 }
 
 .promo img {
-    width: 50%;          
-    height: 400px;       
+    width: 55%;          
+    height: 380px;       
     object-fit: cover;             
 }
 
 .promo div {
     flex: 1;
-    padding: 40px;        
+    padding: 30 px 40px;        
     text-align: center;
 }
 
@@ -199,6 +355,7 @@ body {
 .promo h3 {
     color: #0055cc;
     font-size: 16px;
+    margin-top: 12px;
     margin-bottom: 5px;
 }
 
@@ -206,33 +363,40 @@ body {
     font-size: 13px;
     color: #444;
     line-height: 1.4;
-    margin-bottom: 15px;
 }
 
 
 .promo a {
     display: inline-block;
     margin-top: 15px;
-    background-color: #9b5fb1;
+    background-color: #6b4fa0;
     color: white;
     padding: 12px 40px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
+
+.promo a:hover {
+    background-color: #5a3d8a;
+}
+
 footer {
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #333;
     padding: 30px 20px;
     text-align: center;
 }
 
 footer img {
-    height: 40px;
-    margin-bottom: 20px;
+    height: 45px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer ul {
@@ -251,7 +415,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
 footer p {
